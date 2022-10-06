@@ -1,0 +1,148 @@
+{
+  "morans": [
+    {
+      "name": "Situma Khaemba",
+      "position": "PG",
+      "number": "4",
+      "dob": "6th September 1991",
+      "feet": "5",
+      "inches": "9",
+      "club": "Ulinzi Warriors",
+      "country": "Kenya",
+      "image_url": "https://www.fiba.basketball/api/img/player/headshot/5/9550/88/168397?alternate=%2fimages%2fdefault_profile.jpg",
+      "id": 1
+    },
+    {
+      "name": "Griffin Ligare",
+      "position": "PG",
+      "number": "5",
+      "dob": "19th May 1985",
+      "feet": "5",
+      "inches": "9",
+      "club": "Nairobi City Thunder",
+      "country": "Kenya",
+      "image_url": "https://www.fiba.basketball/api/img/player/headshot/5/9550/88/172382?alternate=%2Fimages%2Fdefault_profile.jpg",
+      "id": 2
+    },
+    {
+      "name": "Victor Bosire",
+      "position": "PG",
+      "number": "7",
+      "dob": "31st December 1988",
+      "feet": "5",
+      "inches": "9",
+      "club": "Ulinzi Warriors",
+      "country": "Kenya",
+      "image_url": "https://www.fiba.basketball/api/img/player/headshot/5/9550/88/205279?alternate=%2Fimages%2Fdefault_profile.jpg",
+      "id": 3
+    },
+    {
+      "name": "Erick Reuben Mutoro",
+      "position": "SG",
+      "number": "6",
+      "dob": "29th May 1992",
+      "feet": "5",
+      "inches": "11",
+      "club": "Ulinzi Warriors",
+      "country": "Kenya",
+      "image_url": "https://www.fiba.basketball/api/img/player/headshot/5/9550/88/220859?alternate=%2fimages%2fdefault_profile.jpg",
+      "id": 4
+    },
+    {
+      "name": "Albert Odero",
+      "position": "SF",
+      "number": "10",
+      "dob": "21st June 1997",
+      "feet": "6",
+      "inches": "5",
+      "club": "Arkansas Tech Wonder Boys",
+      "country": "U.S.A",
+      "image_url": "https://www.fiba.basketball/api/img/player/headshot/5/9550/88/303003?alternate=%2fimages%2fdefault_profile.jpg",
+      "id": 5
+    },
+    {
+      "name": "Fidel Okoth",
+      "position": "PF",
+      "number": "8",
+      "dob": "24th October 1996",
+      "feet": "6",
+      "inches": "8",
+      "club": "Strathmore University",
+      "country": "Kenya",
+      "image_url": "https://www.fiba.basketball/api/img/player/headshot/5/9550/88/259299?alternate=%2Fimages%2Fdefault_profile.jpg",
+      "id": 6
+    },
+    {
+      "name": "Tylor Ongwae",
+      "position": "SG",
+      "number": "9",
+      "dob": "15th July 1991",
+      "feet": "6",
+      "inches": "7",
+      "club": "Bakken Bears",
+      "country": "Denmark",
+      "image_url": "https://www.fiba.basketball/api/img/player/headshot/5/9550/88/187515?alternate=%2fimages%2fdefault_profile.jpg",
+      "id": 7
+    },
+    {
+      "name": "Valentine Nyakinda",
+      "position": "SF",
+      "number": "11",
+      "dob": "16th March 1992",
+      "feet": "6",
+      "inches": "8",
+      "club": "Kenya Ports Authority",
+      "country": "Kenya",
+      "image_url": "https://www.fiba.basketball/api/img/player/headshot/5/9550/88/170680?alternate=%2fimages%2fdefault_profile.jpg",
+      "id": 8
+    },
+    {
+      "name": "Desmond Blacio Owuor Owili",
+      "position": "C",
+      "number": "12",
+      "dob": "22nd February 1988",
+      "feet": "6",
+      "inches": "10",
+      "club": "Kilsynth Cobras",
+      "country": "Australia",
+      "image_url": "https://www.fiba.basketball/api/img/player/headshot/5/9550/88/187516?alternate=%2fimages%2fdefault_profile.jpg",
+      "id": 9
+    },
+    {
+      "name": "Ronald Gundo Gombo",
+      "position": "PF",
+      "number": "13",
+      "dob": "21st July 1992",
+      "feet": "6",
+      "inches": "8",
+      "club": "CB Villarrobledo",
+      "country": "Spain",
+      "image_url": "https://www.fiba.basketball/api/img/player/headshot/5/9550/88/186305?alternate=%2fimages%2fdefault_profile.jpg",
+      "id": 10
+    },
+    {
+      "name": "Tom 'Bush' Wamukota",
+      "position": "C",
+      "number": "14",
+      "dob": "28th September 1993",
+      "feet": "7",
+      "inches": "0",
+      "club": "Patriots BBC",
+      "country": "Rwanda",
+      "image_url": "https://www.fiba.basketball/api/img/player/headshot/5/9550/88/248234?alternate=%2fimages%2fdefault_profile.jpg",
+      "id": 11
+    },
+    {
+      "name": "Okall Koranga",
+      "position": "PF",
+      "number": "15",
+      "dob": "18th March 1990",
+      "feet": "6",
+      "inches": "8",
+      "club": "Kampala International University",
+      "country": "Uganda",
+      "image_url": "https://www.fiba.basketball/api/img/player/headshot/5/9550/88/212091?alternate=%2fimages%2fdefault_profile.jpg",
+      "id": 12
+    }
+  ]
+}
