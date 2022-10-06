@@ -1,24 +1,31 @@
-import logo from './logo.svg';
+import React, { useEffect, useState } from 'react';
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import NavBar from './components/NavBar';
+import AboutUs from './components/AboutUs';
+import Home from './components/Home';
+import Discovery from './components/Discovery';
 import './App.css';
 
 function App() {
+
+  const [morans, setMorans] = useState([])
+
+  useEffect(() => {
+    fetch("http://localhost:3000/morans")
+      .then(res => res.json())
+      .then(setMorans)
+      .catch(console.error)
+  },[])
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <NavBar />
+      <Routes >
+        <Route exact path="/" element={<Home morans={morans} />} />
+        <Route exact path="/discovery" element={<Discovery setMorans={setMorans} morans={morans} />} />
+      </Routes>
+      <AboutUs />
+    </BrowserRouter>
   );
 }
 
