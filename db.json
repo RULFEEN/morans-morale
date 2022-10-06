@@ -143,6 +143,18 @@
       "country": "Uganda",
       "image_url": "https://www.fiba.basketball/api/img/player/headshot/5/9550/88/212091?alternate=%2fimages%2fdefault_profile.jpg",
       "id": 12
+    },
+    {
+      "name": "Joel Awich",
+      "position": "SF",
+      "number": "25",
+      "dob": "22nd April 1993",
+      "feet": "6",
+      "inches": "8",
+      "club": "Dax Gamarde Goos Basket",
+      "country": "France",
+      "image_url": "https://www.fiba.basketball/api/img/player/headshot/5/208424/88/227134?alternate=%2fimages%2fdefault_profile.jpg",
+      "id": 13
     }
   ]
 }
