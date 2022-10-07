@@ -10,12 +10,12 @@ const Link = styled.div`
 function NavBar() {
     return (
         <React.Fragment>
-            <NavLink to="/" >
+            <NavLink to="/morans-morale/" >
                 <Link>
                 Home
                 </Link>
             </NavLink>
-            <NavLink to="/discovery" >
+            <NavLink to="/morans-morale/discovery" >
                 <Link>
                 Discovery
                 </Link>

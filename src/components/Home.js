@@ -7,6 +7,7 @@ const Div = styled.div`
     background: transparent;
     border: 5px solid white;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     gap: 10px;
     background-color: black;

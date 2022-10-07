@@ -21,8 +21,8 @@ function App() {
     <BrowserRouter>
       <NavBar />
       <Routes >
-        <Route exact path="/" element={<Home morans={morans} />} />
-        <Route exact path="/discovery" element={<Discovery setMorans={setMorans} morans={morans} />} />
+        <Route exact path="/morans-morale/" element={<Home morans={morans} />} />
+        <Route exact path="/morans-morale/discovery" element={<Discovery setMorans={setMorans} morans={morans} />} />
       </Routes>
       <AboutUs />
     </BrowserRouter>
