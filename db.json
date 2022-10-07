@@ -155,6 +155,54 @@
       "country": "France",
       "image_url": "https://www.fiba.basketball/api/img/player/headshot/5/208424/88/227134?alternate=%2fimages%2fdefault_profile.jpg",
       "id": 13
+    },
+    {
+        "name": "Victor Onyango Ochieng'",
+        "position": "SG",
+        "number": "9",
+        "dob": "12th Aug 1985",
+        "feet": "5",
+        "inches": "11",
+        "club": "Equity Bank",
+        "country": "Kenya",
+        "image_url": "https://www.fiba.basketball/api/img/player/headshot/5/208424/88/192519?alternate=%2fimages%2fdefault_profile.jpg",
+        "id": 14
+    },
+    {
+        "name": "Preston Bungei",
+        "position": "SF",
+        "number": "1",
+        "dob": "23rd Febrauary 1995",
+        "feet": "6",
+        "inches": "7",
+        "club": "Randers Cimbria",
+        "country": "Denmark",
+        "image_url": "https://www.fiba.basketball/api/img/player/headshot/5/208424/88/259287?alternate=%2fimages%2fdefault_profile.jpg",
+        "id": 15
+    },
+    {
+        "name": "Job Ayodi",
+        "position": "PF",
+        "number": "12",
+        "dob": "16th May 1990",
+        "feet": "6",
+        "inches": "5",
+        "club": "Kenya Ports Authority",
+        "country": "Kenya",
+        "image_url": "https://www.fiba.basketball/api/img/player/headshot/5/208424/88/277754?alternate=%2fimages%2fdefault_profile.jpg",
+        "id": 16
+    },
+    {
+        "name": "Victor Maisiba Bosire",
+        "position": "SG",
+        "number": "7",
+        "dob": "31st Dec 1988",
+        "feet": "5",
+        "inches": "9",
+        "club": "Ulinzi Warriors",
+        "country": "Kenya",
+        "image_url": "https://www.fiba.basketball/api/img/player/headshot/5/208424/88/205279?alternate=%2fimages%2fdefault_profile.jpg",
+        "id": 17
     }
   ]
 }
