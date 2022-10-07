@@ -15,7 +15,7 @@ function AboutUs() {
         <Div>
             <Flexchild>
                 <h2>About Us</h2>
-                <p>The Morans Morale is meant to celebrate our country's basketball team</p>
+                <p>The Morans Morale is meant<br/> to celebrate our country's<br/> basketball team</p>
             </Flexchild>
             <Flexchild>
                 <h3>Contact Us</h3>

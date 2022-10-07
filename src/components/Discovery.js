@@ -70,9 +70,15 @@ function Discovery({ setMorans, morans }) {
             <p>You are welcome to Google their info and/or images or find the info on Wikipedia.</p>
             <Form >
                 <label htmlFor="name" >Moran: </label><br/>
-                <Input name="name" placeholder="Name" value={formData.name} onChange={(e) => setFormData({ ...formData, name: e.target.value })} /><br/>
+                <Input name="name" placeholder="Name" value={formData.name} onChange={(e) => {
+                    e.preventDefault() 
+                    setFormData({ ...formData, name: e.target.value })
+                }} /><br/>
                 <label htmlFor="position" >Position: </label><br/>
-                <Select id="position" value={formData.position} onChange={(e) => setFormData({ ...formData, position: e.target.value })}>
+                <Select id="position" value={formData.position} onChange={(e) => {
+                    e.preventDefault() 
+                    setFormData({ ...formData, position: e.target.value })
+                }}>
                     <option value="PG" >Point Guard</option>
                     <option value="SG" >Shooting Guard</option>
                     <option value="PF" >Power Forward</option>
@@ -81,18 +87,41 @@ function Discovery({ setMorans, morans }) {
                     <option value="Coach" >Coach</option>
                 </Select><br/>
                 <label htmlFor="number" >Number: </label><br/>
-                <Input name="number" placeholder="Singlet Number" value={formData.number} onChange={(e) => setFormData({ ...formData, number: e.target.value })} /><br/>
+                <Input name="number" placeholder="Singlet Number" value={formData.number} onChange={(e) => {
+                    e.preventDefault() 
+                    setFormData({ ...formData, number: e.target.value })
+                }} /><br/>
                 <label htmlFor="d.o.b." >D.O.B.: </label><br/>
-                <Input name="d.o.b." placeholder="Date of birth" value={formData.dob} onChange={(e) => setFormData({ ...formData, dob: e.target.value })} /><br/>
+                <Input name="d.o.b." placeholder="Date of birth" value={formData.dob} onChange={(e) => {
+                    e.preventDefault() 
+                    setFormData({ ...formData, dob: e.target.value })
+                }} /><br/>
                 <label htmlFor="height" >Height:</label><br/>
-                <label htmlFor="feet">Feet:</label><br/><Input name="feet" placeholder="Feet e.g 4" value={formData.feet} onChange={(e) => setFormData({ ...formData, feet: e.target.value })} /><br/>
-                <label htmlFor="inches">Inches:</label><br/><Input name="inches" placeholder="Inches e.g 12" value={formData.inches} onChange={(e) => setFormData({ ...formData, inches: e.target.value })} /><br/>
+                <label htmlFor="feet">Feet:</label><br/>
+                <Input name="feet" placeholder="Feet e.g 4" value={formData.feet} onChange={(e) => {
+                    e.preventDefault() 
+                    setFormData({ ...formData, feet: e.target.value })
+                }} /><br/>
+                <label htmlFor="inches">Inches:</label><br/>
+                <Input name="inches" placeholder="Inches e.g 12" value={formData.inches} onChange={(e) => {
+                    e.preventDefault() 
+                    setFormData({ ...formData, inches: e.target.value })
+                }} /><br/>
                 <label htmlFor="club" >Club:</label><br/>
-                <Input name="club" placeholder="Club" value={formData.club} onChange={(e) => setFormData({ ...formData, club: e.target.value })} /><br/>
+                <Input name="club" placeholder="Club" value={formData.club} onChange={(e) => {
+                    e.preventDefault() 
+                    setFormData({ ...formData, club: e.target.value })
+                }} /><br/>
                 <label htmlFor="country" >Country:</label><br/>
-                <Input name="country" placeholder="Country" value={formData.country} onChange={(e) => setFormData({ ...formData, country: e.target.value })} /><br/>
+                <Input name="country" placeholder="Country" value={formData.country} onChange={(e) => {
+                    e.preventDefault() 
+                    setFormData({ ...formData, country: e.target.value })
+                }} /><br/>
                 <label htmlFor="image_url" >Player Photo:</label><br/>
-                <Input name="image_url" placeholder="Image URL" value={formData.image_url} onChange={(e) => setFormData({ ...formData, image_url: e.target.value })} /><br/>
+                <Input name="image_url" placeholder="Image URL" value={formData.image_url} onChange={(e) => {
+                    e.preventDefault() 
+                    setFormData({ ...formData, image_url: e.target.value })
+                }} /><br/>
             <button type="submit" form="moranform" value="Submit" onClick={handleSubmit} >Submit</button>
             </Form>
         </React.Fragment>
