@@ -15,9 +15,34 @@ function NavBar() {
                 Home
                 </Link>
             </NavLink>
-            <NavLink to="/discovery" >
+            {/* <NavLink to="/discovery" >
                 <Link>
                 Discovery
+                </Link>
+            </NavLink> */}
+            <NavLink to="/pointguards" >
+                <Link>
+                PointGuards
+                </Link>
+            </NavLink>
+            <NavLink to="/shootingguards" >
+                <Link>
+                ShootingGuards
+                </Link>
+            </NavLink>
+            <NavLink to="/powerforwards" >
+                <Link>
+                PowerForwards
+                </Link>
+            </NavLink>
+            <NavLink to="/smallforwards" >
+                <Link>
+                SmallForwards
+                </Link>
+            </NavLink>
+            <NavLink to="/centres" >
+                <Link>
+                Centers
                 </Link>
             </NavLink>
         </React.Fragment>

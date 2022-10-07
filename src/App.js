@@ -3,7 +3,11 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import NavBar from './components/NavBar';
 import AboutUs from './components/AboutUs';
 import Home from './components/Home';
-import Discovery from './components/Discovery';
+import PointGuards from './components/team/PointGuards';
+import ShootingGuards from './components/team/ShootingGuards';
+import SmallForwards from './components/team/SmallForwards';
+import PowerForwards from './components/team/PowerForwards';
+import Centers from './components/team/Centers';
 import './App.css';
 
 function App() {
@@ -11,7 +15,7 @@ function App() {
   const [morans, setMorans] = useState([])
 
   useEffect(() => {
-    fetch("../db.json/morans")
+    fetch("http://localhost:3000/morans")
       .then(res => res.json())
       .then(setMorans)
       .catch(console.error)
@@ -22,7 +26,12 @@ function App() {
       <NavBar />
       <Routes >
         <Route exact path="/" element={<Home morans={morans} />} />
-        <Route exact path="/discovery" element={<Discovery setMorans={setMorans} morans={morans} />} />
+        {/* <Route exact path="/discovery" element={<Discovery setMorans={setMorans} morans={morans} />} /> */}
+        <Route exact path="/pointguards" element={<PointGuards />} />
+        <Route exact path="/shootingguards" element={<ShootingGuards />} />
+        <Route exact path="/smallforwards" element={<SmallForwards />} />
+        <Route exact path="/powerforwards" element={<PowerForwards />} />
+        <Route exact path="/centres" element={<Centers />} />
       </Routes>
       <AboutUs />
     </BrowserRouter>
