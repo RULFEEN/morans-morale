@@ -11,7 +11,7 @@ function App() {
   const [morans, setMorans] = useState([])
 
   useEffect(() => {
-    fetch("../db.json")
+    fetch("../db.json/morans")
       .then(res => res.json())
       .then(setMorans)
       .catch(console.error)
